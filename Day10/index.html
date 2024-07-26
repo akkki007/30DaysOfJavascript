@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 10 of JS</title>
+  </head>
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: "Gilroy";
+    }
+    body {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.801);
+      color: white;
+    }
+    #event1 {
+      margin: 30px;
+      display: flex;
+      flex-direction: column;
+    }
+    #event1 button {
+      width: fit-content;
+      padding: 5px;
+      margin-top: 6px;
+    }
+    #event2 {
+      width: fit-content;
+      height: fit-content;
+      margin: 30px;
+      display: flex;
+      flex-direction: column;
+    }
+    #event2 img {
+      visibility: hidden;
+    }
+    #event2 button{
+        width: fit-content;
+        padding: 5px;
+    }
+    #event3 p{
+        margin: 30px;
+        width: 20vw;
+        padding: 1vw;
+    }
+    #lastEvent{
+        margin: 50px;
+    }
+  </style>
+
+  <body>
+    <!--Event handling in JS-->
+
+    <div id="event1">
+      <p id="para">
+        This is a para that will change after you click the below button
+      </p>
+      <button id="button">Click me</button>
+    </div>
+
+    <div id="event2">
+      <img
+        id="image"
+        src="https://images.unsplash.com/photo-1508252568242-e0f383f753d6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3BsYXNofGVufDB8fDB8fHww"
+      />
+      <button id="dbButton">Toggle</button>
+    </div>
+
+    <div id="event3">
+        <p id="para2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem perferendis eligendi porro dicta animi suscipit nihil, dolor culpa expedita illum.</p>
+    </div>
+
+    <div id="lastEvent">
+        <ul id="list">
+            <li id="item1">i am 1</li>
+            <li id="item2">i am 2</li>
+            <li id="item3">i am 3</li>
+        </ul>
+    </div>
+
+  </body>
+  <script src="Day10.js"></script>
+</html>
